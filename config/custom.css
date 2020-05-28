@@ -1,0 +1,129 @@
+/*Custom CSS de Star*/
+    body {
+	background: url(https://cdn.atomix.vg/wp-content/uploads/2014/08/pokemon-grass-hierba-planta-wallpaper.jpg) center no-repeat;
+	background-size: 100% 100%;
+	font-size: 16px;
+  }
+  .ps-room.ps-room-light.scrollable {
+	  background: rgba(247, 247, 251, 0.95) url(https://i.imgur.com/bRmz7KI.png) no-repeat bottom right;
+  }
+  .ps-room.ps-room-light.scrollable h3 {
+	  color: #0053bd;
+	  text-shadow: none;
+  }
+  .ps-room.ps-room-light.scrollable p {
+	  color: #111;
+  }
+  
+  /*************
+	* Header CSS *
+	*************/
+   
+  .header {
+	  background: rgba(221, 247, 251, 0.43) url(https://i.imgur.com/LjCqMH3.png) left no-repeat;
+  }
+  .header .logo {
+	  opacity: 0;
+  }
+  .maintabbarbottom {
+	  border-color: #a4a560;
+	  background: #ebec99;
+  }
+  .tabbar a.button {
+	  border-color: #a4a560;
+	  background: #ebec99;
+	  color: #919265;
+	  text-shadow: none;
+  }
+  .tabbar a.button:hover {
+	  background: #d8d88d;
+  }
+  .tabbar .closebutton {
+	  color: #c0c17d;
+  }
+  .tabbar .closebutton:hover {
+	  color: #AF3B3B;
+  }
+  
+   /*****************
+	* Roomlist CSS *
+	***************/
+  
+  .roomlist h2 {
+	  color: #000;
+  }
+  .roomlist {
+	  max-width: 98%;
+	  text-align: left;
+	  display: table-cell;
+	  padding-left: 15px;
+  }
+  .roomlist div a.ilink {
+	  width: 300px;
+	  height: 100px;
+	  border-radius: 0px;
+	  color: #fff;
+	  text-shadow: 0px 1px 2px #000;
+	  font-size: 16px;
+  }
+  .roomlist div a.ilink small {
+	  padding-left: 10px;
+	  max-width: 80%;
+  }
+  .roomlist .rooms-chatrooms {
+	  margin-left: 100px;
+  }
+  .roomlist .rooms-officialchatrooms {
+	  margin-left: 60px;
+  }
+  .roomlist div a.ilink:hover {
+	  color: #fff;
+	  text-shadow: 0px 1px 2px #000;
+	  background: rgba(144, 238, 144, .3);
+	  opacity: .8;
+	  transition: 2s;
+  }
+  .roomlist div a.ilink[href="/lobby"] {
+	  background: url(https://i.imgur.com/kpDddFp.jpg);
+	  background-size: cover;
+	  color: #fff;
+	  border: none;
+  }
+  
+  /************
+	* Popup CSS *
+	************/
+   
+  .ps-popup {
+	  background: #ebec99;
+	  border-color: #96945b;
+	  font-size: 12pt;
+  }
+  /* SYMBOL COLOR START */
+  [id*="-userlist-user-avile"] button>em.group{
+  color: #f23100;
+  }
+  /* SYMBOL COLOR END */
+  /* FONT COLOR START */
+  .chat.chatmessage-bezy em{
+  color: #3b0e6b;
+  }
+  /* FONT COLOR END */
+  /* COLORS START */
+  [class$="chatmessage-bezy"] strong, [class$="chatmessage-bezy mine"] strong, [class$="chatmessage-bezy highlighted"] strong, [id$="-userlist-user-bezy"] strong em, [id$="-userlist-user-bezy"] strong, [id$="-userlist-user-bezy"] span{
+  color: #987593 !important;
+  }
+  /* COLORS END */
+  /* ICONS START */
+  [id$="-userlist-user-bezy"] {
+  background: rgba(17, 72, 79, 0.6) url("https://i.imgur.com/yRB73o6.png") right no-repeat !important;
+  }
+  /* ICONS END */
+  /* COLORS START */
+  #lobby-userlist-user-avile strong em, #lobby-userlist-user-avile strong, #lobby-userlist-user-avile span, #staff-userlist-user-avile strong em, #staff-userlist-user-avile strong, #staff-userlist-user-avile span, #shadowbanroom-userlist-user-avile strong em, #shadowbanroom-userlist-user-avile strong, #shadowbanroom-userlist-user-avile span, #thestudio-userlist-user-avile strong em, #thestudio-userlist-user-avile strong, #thestudio-userlist-user-avile span, #tvliteratura-userlist-user-avile strong em, #tvliteratura-userlist-user-avile strong, #tvliteratura-userlist-user-avile span{
+  color: #DEB887 !important;
+  }
+  .chat.chatmessage-avile strong {
+  color: #DEB887 !important;
+  }
+  /* COLORS END */
